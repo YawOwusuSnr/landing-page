@@ -54,7 +54,7 @@ p {
     color: #E5E7EB
 }
 
-.hero-logo {
+.logo {
     width: 100px;
 }
 
@@ -174,14 +174,21 @@ ul {
     justify-content: space-around;
     align-items: center;
     gap: 80px;
-    padding: 20px 250px;
+    padding: 40px 250px;
     border-radius: 5px;
     
 }
 
-.cta-card > h4 {
+.cta-text > h4 {
     font-size: 26px;
     color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.cta-text > p {
+    padding: 0;
+    margin: 0;
 }
 
 button {
